@@ -1,0 +1,25 @@
+.nav {
+    display: flex;
+    align-items: center;
+    padding: 1rem 3rem;
+    gap: 2rem;
+}
+
+.nav > .greeting {
+    margin-right: auto;
+}
+
+.greeting p:last-child{
+    font-weight: 600;
+
+}
+
+.nav button {
+    font-size: 1rem;
+    color: white;
+    background-color: blue;
+    border: none;
+    border-radius: 20px;
+    width: 6rem;
+    height: 2rem;
+}

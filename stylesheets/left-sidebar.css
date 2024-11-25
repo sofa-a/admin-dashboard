@@ -1,0 +1,26 @@
+.left-sidebar {
+    padding: 1rem 1rem;
+    background-color: blue;
+    color: white;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+
+.option {
+    display: flex;
+    padding: 0.5rem;
+    align-items: center;
+    height: 2rem;
+    gap: 2rem;
+}
+
+.left-sidebar .option:nth-child(1) {
+    padding: 0;
+    gap: 1rem;
+    margin-bottom: 3rem;
+}
+
+.left-sidebar .option:nth-child(7) {
+    margin-bottom: 3rem;
+}
