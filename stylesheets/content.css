@@ -1,0 +1,27 @@
+.content {
+    padding: 2rem 1rem;
+    background-color: rgb(223, 240, 233);
+    z-index: 1;
+}
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    padding-top: 1rem;
+}
+
+.card {
+    width: 18rem;
+    height: 12rem;
+    border-left: rgb(209, 182, 30) solid 8px;
+    box-shadow: 2px 5px 10px rgb(165, 182, 175);
+    background-color: white;
+    border-radius: 8px;
+}
+
+.card > p {
+    padding: 2rem 1rem;
+    font-weight: 700;
+    font-size: 1.1rem;
+}
